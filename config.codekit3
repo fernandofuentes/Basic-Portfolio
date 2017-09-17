@@ -39,6 +39,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/images\/concrete-texture.png": {
+		"ft": 32768,
+		"iS": 296566,
+		"oA": 0,
+		"oAP": "\/assets\/images\/concrete-texture.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/contact.html": {
 		"ft": 8192,
 		"oA": 2,
