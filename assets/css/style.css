@@ -32,23 +32,19 @@ hr {
 }
 
 
-
-
-
-
-
 /******* HEADER STYLES *******/
 
 #header-wrapper {
-    width: 100%;
+    margin:0;
+    padding: 0;
     border-bottom: 1px solid #cccccc;
-    background-color: #ffffff;
+    background-color: red;
 }
 
 header {
     position: relative;
     height: 100px;
-    background-color: #ffffff;
+    background-color: green;
     width: 960px;
     margin: 0 auto;
 }
@@ -67,15 +63,12 @@ header {
 }
 
 
-
-
 /* NAVIGATION */
 
 nav {
     position: absolute;
-    top: 0;
-    right: 0;
-    padding: 50px 0;
+    bottom: 0px;
+    right: -10px;
 }
 
 nav ul {
@@ -108,7 +101,6 @@ nav ul li a:hover {
 }
 
 
-
 /* stroke */
 
 nav.stroke ul li a,
@@ -127,7 +119,7 @@ nav.fill ul li a:after {
     content: '.';
     color: transparent;
     background: #4aaaa5;
-    height: 1px;
+    height: 3px;
 }
 
 nav.stroke ul li a:hover:after {
@@ -139,18 +131,23 @@ nav.stroke ul li a:hover:after {
 
 
 
+
+
+
 /******* MAIN AREA STYLES ********/
 
 #container-wrapper {
+    height: 100%;
     width: 100%;
-    height: 500px;
-    background-image: url("../images/concrete-texture.png");
+    background-color: blue;
+    padding: 40px 0;
 }
 
 #container {
     width: 960px;
     margin: 0 auto;
-    padding-top: 40px;
+    background-color: yellow;
+    overflow: contain;
 }
 
 section {
@@ -158,7 +155,6 @@ section {
     padding: 25px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    float: left;
 }
 
 section p {
@@ -178,8 +174,8 @@ aside {
     padding: 25px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    float: right;
 }
+
 
 aside p {
     text-align: center;
@@ -198,61 +194,19 @@ aside a:hover img {
 }
 
 
-
-
-
-
-
 /******* FOOTER STYLES ********/
 
 footer {
+    display: block;
     height: 100px;
-    border-top: 5px solid #4aaaa5;
     line-height: 100px;
+    border-top: 5px solid #4aaaa5;
     background-color: #666666;
     color: #ffffff;
-    overflow: auto;
     clear: both;
+    overflow: auto;
 }
 
 footer p {
     text-align: center;
 }
-
-
-
-
-
-
-
-/*
-Additional Specifcations
-Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
-Teal color (used for headings and backgrounds): #4aaaa5
-Regular font color (used for paragraphs and all text besides the headings): #777777
-Main header background color: #ffffff
-Main header border color: #cccccc
-Footer background color: #666666
-Main content background color: #ffffff
-Main content border color: #dddddd
-Fonts:
-For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
-For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
-Profile Image Found on index.html:
-Use a picture of yourself.
-If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder.
-Portfolio Images:
-Placeholder images can be found at LoremPixel.
-Save the images to your images folder.
-Social Link Images (Github, LinkedIn, StackOverflow, etc.):
-These images can be found on IconFinder.
-Save the images to your images folder.
-Ensure that these icons are live links to your GitHub, LinkedIn, and Stack Overflow profiles.
-Background Images:
-The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
-Dimensions:
-The entire content area is 960px wide.
-The main section content is 650px wide.
-The sidebar is 270px wide.
-Pro-tip: Use the Page Ruler extension to measure the size of elements.
-*/
