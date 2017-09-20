@@ -181,6 +181,22 @@ aside {
     float: right;
 }
 
+aside p {
+    text-align: center;
+}
+
+aside img {
+    width: 30%;
+}
+
+aside a img {
+    opacity: .7;
+}
+
+aside a:hover img {
+    opacity: 1;
+}
+
 
 
 
