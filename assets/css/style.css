@@ -38,13 +38,12 @@ hr {
     margin:0;
     padding: 0;
     border-bottom: 1px solid #cccccc;
-    background-color: red;
+    background-color: #ffffff;
 }
 
 header {
     position: relative;
     height: 100px;
-    background-color: green;
     width: 960px;
     margin: 0 auto;
 }
@@ -137,17 +136,14 @@ nav.stroke ul li a:hover:after {
 /******* MAIN AREA STYLES ********/
 
 #container-wrapper {
-    height: 100%;
-    width: 100%;
-    background-color: blue;
+    background-image: url("../images/concrete-texture.png");
     padding: 40px 0;
+    overflow: auto;
 }
 
 #container {
     width: 960px;
     margin: 0 auto;
-    background-color: yellow;
-    overflow: contain;
 }
 
 section {
@@ -155,6 +151,7 @@ section {
     padding: 25px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
+    float: left;
 }
 
 section p {
@@ -174,6 +171,7 @@ aside {
     padding: 25px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
+    float: right;
 }
 
 
