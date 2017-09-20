@@ -60,6 +60,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/github-icon.png": {
+		"ft": 32768,
+		"iS": 3185,
+		"oA": 0,
+		"oAP": "\/assets\/images\/github-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/linkedin-icon.png": {
+		"ft": 32768,
+		"iS": 2231,
+		"oA": 0,
+		"oAP": "\/assets\/images\/linkedin-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/stackoverflow-icon.png": {
+		"ft": 32768,
+		"iS": 6370,
+		"oA": 0,
+		"oAP": "\/assets\/images\/stackoverflow-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/contact.html": {
 		"ft": 8192,
 		"oA": 2,
