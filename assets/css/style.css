@@ -127,6 +127,13 @@ nav.stroke ul li a:hover:after {
   overflow: auto;
 }
 
+#container-wrapper:after {
+  content: "";
+  display: block;
+}
+
+
+
 #container {
   width: 960px;
   margin: 0 auto;
@@ -208,7 +215,7 @@ img.placeholder-image {
 /******* FOOTER STYLES ********/
 
 footer {
-  height: 100px;
+  height: 95px;
   line-height: 100px;
   border-top: 5px solid #4aaaa5;
   background-color: #666666;
@@ -216,6 +223,7 @@ footer {
   clear: both;
   overflow: auto;
 }
+
 
 footer p {
   text-align: center;
